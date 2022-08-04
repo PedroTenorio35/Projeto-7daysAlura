@@ -1,0 +1,28 @@
+.numeros__grid {
+    display: flex;
+    flex-direction: row;
+    padding: 2em 3em 4em;
+}
+
+.grid__item {
+    padding:0 1.5em;
+}
+
+.titulo__numero {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.subtitulo__numero {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 1.5em 0 0.5em;
+}
+
+.texto__numero {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+}
